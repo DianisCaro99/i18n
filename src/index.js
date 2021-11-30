@@ -7,7 +7,7 @@ import localeEnMessages from "./locales/en";
 import localeEsMessages from "./locales/es";
 
 //variabler para cambiar el idioma. en - english y es - español
-const language = 'en';
+const language = 'es';
 const messages = {
 	'es': localeEsMessages,
 	'en': localeEnMessages

@@ -38,8 +38,8 @@ const JobsList = () => {
 
   return (
     <div>
-      <table className={`table ${intl.locale === 'en' ? 'table-dark ' : ''}`}>
-        <thead className="thead-dark">
+      <table className='table'>
+        <thead className={`${intl.locale === 'en' ? 'table-dark ' : ''}`}>
           <tr>
             <th scope="col">#</th>
             <th scope="col">
